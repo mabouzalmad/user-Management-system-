@@ -1,0 +1,54 @@
+/* Style général */
+body {
+    
+    background: #eae1e2; /* beige */
+    display: flex;
+ justify-content: center;
+    align-items: center;   
+    height: 100vh;
+}
+
+/* Conteneur du formulaire */
+.container {
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 15px;
+  
+   
+}
+
+
+h1 {
+    color: #1f1017; 
+    text-align: center;
+  
+}
+
+/* Champs */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #c4b6bd;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    background: #fff7fb;
+    margin-top: 15px;
+}
+
+/* Bouton */
+button {
+    margin-top: 15px;
+    margin-left: 90px;
+    width: 60%;
+    padding: 10px; /*largeur*/
+    background: #491733;
+    color: rgb(247, 239, 239);
+    border: none;
+    border-radius: 10px;
+  
+}
+
+button:hover {
+    background: #090808;
+}
